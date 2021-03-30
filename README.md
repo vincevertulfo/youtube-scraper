@@ -55,6 +55,8 @@ Windows
 
 # Usage
 
+### Scraping 
+---
 1. cd to `scraper` folder
 2. Input your API key in `config.py`
 ```
@@ -70,3 +72,20 @@ KEYWORD = ''
 EXPORT_PATH = ''
 ```
 4. Open your terminal, run `python main.py`
+
+
+### Merge
+--- 
+If you want to merge all the exported CSVs that you've scraped, you can run the **merge.py** file.
+
+It consolidates everything, and remove videos that are duplicated from similar keywords or search word.
+
+1. Just input the file path where you've exported the data
+```
+import pandas as pd 
+import os 
+
+FILE_PATH = ''
+```
+
+2. In your terminal, run `python merger.py`

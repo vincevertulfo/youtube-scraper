@@ -1,7 +1,7 @@
 import pandas as pd 
 import os 
 
-FILE_PATH = '../data_export'
+FILE_PATH = ''
 
 def main():
 

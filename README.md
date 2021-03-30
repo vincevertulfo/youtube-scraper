@@ -62,7 +62,7 @@ Windows
 ```
 YOUTUBE_API_KEY = ''
 ```
-3. Input the **word** that you want to search for in `main.py`, as well as the **export path**
+3. Input the **word** that you want to search for in `main.py`, as well as the **export path**. (You can also specify the MINUTES_LIMIT AND SEARCH_LIMIT if you want.)
 ```
 from scraper import YoutubeVideoScraper
 from config import YOUTUBE_API_KEY
@@ -70,6 +70,8 @@ from config import YOUTUBE_API_KEY
 API_KEY = YOUTUBE_API_KEY
 KEYWORD = ''
 EXPORT_PATH = ''
+MINUTES_LIMIT = 
+SEARCH_LIMIT = 
 ```
 4. Open your terminal, run `python main.py`
 

@@ -4,8 +4,8 @@ from config import YOUTUBE_API_KEY
 API_KEY = YOUTUBE_API_KEY
 KEYWORD = ''
 EXPORT_PATH = ''
-# MINUTES_LIMIT = 
-# SEARCH_LIMIT = 
+MINUTES_LIMIT = 
+SEARCH_LIMIT = 
 
 def main():
 

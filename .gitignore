@@ -1,0 +1,15 @@
+# VS Code
+.vscode
+
+# Data Export
+data_export
+
+# Ad-hoc
+laura
+adhoc.py
+channels.csv
+feedspot.py
+utils.py
+
+# Pipfile
+Pipfile*
